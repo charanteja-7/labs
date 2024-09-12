@@ -1,3 +1,5 @@
+//change the file name to Main while running the program
+
 import java.util.*;
 import java.security.MessageDigest;
 import java.math.BigInteger;
