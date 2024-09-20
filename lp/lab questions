@@ -1,0 +1,36 @@
+Lab questions
+
+
+    1. Using cat, date, man commands. (done)
+    2. Building static and shared object libraries.(done)
+    3. Sample project building with make utility(done)
+    4. AWK command and AWK sample scripts.(done)
+
+
+
+
+
+    5. Basic shell scripting programs
+    6. Shell scripting using filters cut, grep, head, tail, more.
+
+
+    7. Implement in C the following Unix commands using system calls: (a) cat (b) cp (c) wc (done)
+    8. Program to implement ls -l filename command (done)
+    9. Write a C program to a) Create Zombie process. b) To avoid zombie state of a process. (done)
+    10. Address space sharing between parent and child processes using fork() and vfork() (done)
+
+
+
+    11. C programs for illustrating signals SIGINT, SIGQUIT, SIGFPE, SIGSEGV, SIGSTOP.
+    12. Implementation of sleep ( ) function using SIGALRM
+    13. Inter process communication using FIFO.
+    14. Write a C program that illustrates how to execute two commands concurrently with a command         pipe. Ex: ls -l | sort
+    15. Implement a message queue to establish communication between processes.
+    16. 	Write a C program that illustrates two processes communicating using shared memory and semaphores.
+    17. Design a TCP iterative Client and server application to
+        a) echo the given input sequence
+        b) reverse the given input sequence
+    18. Implement a message server which accepts commands is_prime, is_armstrong, is_perfectalong with an integer parameter and returns an answer yes or no to the client.
+    19. Implement a server which allows the client to list the files stored at the server and get the contents of the file using socket programming.
+    20. Implement a TCP server which accepts a command from the client, executes it at the server and send the output of the command to the client.
+
