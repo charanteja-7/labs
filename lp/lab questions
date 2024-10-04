@@ -18,12 +18,11 @@ Lab questions
     8. Program to implement ls -l filename command (done)
     9. Write a C program to a) Create Zombie process. b) To avoid zombie state of a process. (done)
     10. Address space sharing between parent and child processes using fork() and vfork() (done)
+    11. C programs for illustrating signals SIGINT, SIGQUIT, SIGFPE, SIGSEGV, SIGSTOP.    (done)
+    12. Implementation of sleep ( ) function using SIGALRM    (done)
+    13. Inter process communication using FIFO.    (done)
 
 
-
-    11. C programs for illustrating signals SIGINT, SIGQUIT, SIGFPE, SIGSEGV, SIGSTOP.
-    12. Implementation of sleep ( ) function using SIGALRM
-    13. Inter process communication using FIFO.
     14. Write a C program that illustrates how to execute two commands concurrently with a command         pipe. Ex: ls -l | sort
     15. Implement a message queue to establish communication between processes.
     16. 	Write a C program that illustrates two processes communicating using shared memory and semaphores.
