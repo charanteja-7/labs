@@ -1,19 +1,29 @@
 ### Record Questions  
-    1. To understand how the data is transferred from source to destination. Implement the data link layer framing methods such as charactercount.
-    2. Implement the data link layer framing methods such as character stuffing andBit stuffingmethods.
+    1. To understand how the data is transferred from source to destination. Implement the data link layer framing methods such as charactercount. (done)
+    2. Implement the data link layer framing methods such as character stuffing andBit stuffingmethods. (done)
+
     3. Implement on a data set of characters the three CRC polynomials – CRC 12, CRC 16 and CRC CCIP sender side and receiverside.
-    4. Implement Dijkstra „s algorithm to compute the Shortest path through agraph.
+
+
+    4. Implement Dijkstra „s algorithm to compute the Shortest path through agraph. (done)
+
+
     5. Take an example subnet graph with weights indicating delay between nodes. Now obtain Routing table art each node using distance vector routingalgorithm.
     6. Take an example subnet of hosts. Obtain broadcast tree forit.
     7. Write Socket program for data transfer using UDP andTCP
-    8. Write a C program to perform encryption and decryption using the followingalgorithms
+
+
+    8. Write a C program to perform encryption and decryption using the followingalgorithms (done)
         a. Creaser cipher b. Substitution cipher c. Hill Cipher
+
+
     9. Write a C/Java program to implement the DES algorithmlogic.
     10. Write a C/Java program to implement the AES algorithmlogic.
-    11. Write a C program to implement RSAalgorithm.
-    12. Implement the Diffie-Hellman Key Exchange mechanism using HTML andJavaScript.
-    13. Calculate the message digest of a text using the SHA-1 algorithm inJAVA.
-    14. Calculate the message digest of a text using the MD5 algorithm inJAVA
+
+    11. Write a C program to implement RSAalgorithm. (done)
+    12. Implement the Diffie-Hellman Key Exchange mechanism using HTML andJavaScript.(done)
+    13. Calculate the message digest of a text using the SHA-1 algorithm inJAVA.(done
+    14. Calculate the message digest of a text using the MD5 algorithm inJAVA(done)
 
 
 
