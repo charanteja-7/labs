@@ -6,9 +6,10 @@
 
 
     4. Implement Dijkstra „s algorithm to compute the Shortest path through agraph. (done)
+    5. Take an example subnet graph with weights indicating delay between nodes. Now obtain Routing table art each node using distance vector routingalgorithm. (done)
 
 
-    5. Take an example subnet graph with weights indicating delay between nodes. Now obtain Routing table art each node using distance vector routingalgorithm.
+
     6. Take an example subnet of hosts. Obtain broadcast tree forit.
     7. Write Socket program for data transfer using UDP andTCP
 
