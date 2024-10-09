@@ -27,3 +27,8 @@ int main(){
 	printf("\n");
 	return 0;
 }
+
+
+//output
+"this is the content"
+data written at 0x7f1de71ed000  is "this is the content"
