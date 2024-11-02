@@ -14,3 +14,79 @@ Download cuDNN v8.1.0 (January 26th, 2021), for CUDA 11.0,11.1 and 11.2
 4.Download the anaconda navigator for running the model also install jupyter notebook in it
 https://www.anaconda.com/products/navigator
 
+5. After installation type the following command and check for cuda
+(base) C:\Users\Cvr>nvidia-smi
+Sat Nov  2 14:20:01 2024
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 472.84       Driver Version: 472.84       CUDA Version: 11.4     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name            TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ... WDDM  | 00000000:01:00.0  On |                  N/A |
+|  0%   45C    P8    13W / 280W |    453MiB / 11264MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      2244    C+G   ...w5n1h2txyewy\SearchUI.exe    N/A      |
+|    0   N/A  N/A      5284    C+G   ...me\Application\chrome.exe    N/A      |
+|    0   N/A  N/A      5856    C+G   Insufficient Permissions        N/A      |
+|    0   N/A  N/A      6272    C+G   ...me\Application\chrome.exe    N/A      |
+|    0   N/A  N/A      8704    C+G   C:\Windows\explorer.exe         N/A      |
+|    0   N/A  N/A     11556    C+G   ...y\ShellExperienceHost.exe    N/A      |
++-----------------------------------------------------------------------------+
+
+
+6.This command used to check wheather the cuda is installed or not
+(base) C:\Users\Cvr>nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2020 NVIDIA Corporation
+Built on Mon_Nov_30_19:15:10_Pacific_Standard_Time_2020
+Cuda compilation tools, release 11.2, V11.2.67
+Build cuda_11.2.r11.2/compiler.29373293_0
+
+
+---------------------------------------------------------------------
+How to run the code????
+
+Follow the bellow commands
+
+1. Open anaconda prompt
+
+# Create the environment with Python 3.6
+conda create -n gputest3 python=3.6
+
+# Activate the environment
+conda activate gputest3
+
+# Install TensorFlow with GPU support
+conda install tensorflow-gpu=2.5.0
+
+# Optionally, install other packages you need
+conda install numpy pandas matplotlib scikit-learn
+conda install -c conda-forge scikit-image 
+conda install -c conda-forge tqdm
+
+# Install Jupyter Notebook and link the environment
+conda install jupyter
+python -m ipykernel install --user --name gputest3 --display-name "gputest3"
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+#run your code by pasting in each cell
+
+Note: as we are using cuda and cudnn that means we are running this with the help
+of gpu so check weather we are running this using gpu by the following code
+
+```code```
+import tensorflow as tf
+print(tf.config.list_physical_devices('GPU'))
+
+
